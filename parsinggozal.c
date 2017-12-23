@@ -37,14 +37,14 @@ int main(){
 	while(output!=NULL){ //loop
 		if(strcmp(output,operators)!=1){ //bandingkan string input dengan string operator
 			printf("%s adalah operator\n",output);
-			output=strtok(NULL," ,.");
 		}
 		else if(periksa(output)==1){ //panggil fungsi periksa input = keyword
 			printf("%s adalah keyword\n",output);
-			output=strtok(NULL," ,.");
 		}
-		else
+		else{
 			printf("%s adalah identifier\n",output); //identifier
-			output=strtok(NULL," ,.");
+		}
+		output=strtok(NULL," ,.");
 	}
+	return 0;
 }
