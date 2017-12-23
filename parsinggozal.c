@@ -26,7 +26,7 @@ int periksa(char str[]){ //fungsi periksa apakah input = keyword
 
 int main(){
 	
-	char input[1000], operators[] = "+-*/%="; //definisi string input dan operator
+	char input[1000], operators[] = "=-+*/%"; //definisi string input dan operator
 	char *output; 
 	
 	printf("Masukkan input : ");
