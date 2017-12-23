@@ -12,8 +12,13 @@ hasil run dari program tersebut :
 
 Source code C lalu di disassembly :
 
-digunakan Dev C++ sebagai tools untuk disassembly
-hasil disassembly sebagai berikut 
-![Disassembly](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/Debug%20Dev%20C%20%2B%2B.png)
+digunakan gdb pada ubuntu sebagai tools untuk disassembly
+hasil inline assembly : 
+![Debug Dev C ++](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/Debug%20Dev%20C%20%2B%2B.png)
+hasil disassembly sebagai berikut :
+![Disassembly fungsi periksa](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/disass%20periksa.png)
+![Disassembly fungsi main](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/disass%20main.png)
+
+
 
 problem : program baru bisa membagi dan mengidentifikasi jenis token, program masih belum bisa memeriksa kebenaran syntax 
