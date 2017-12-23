@@ -35,7 +35,23 @@ int main(){
 	output=strtok(input," ,."); //bagi string input menjadi token saat ada space atau , atau .
 	
 	while(output!=NULL){ //loop
-		if(strcmp(output,operators)!=1){ //bandingkan string input dengan string operator
+	
+		if(strcmp(output,"=")==0){ //bandingkan string input dengan string operator
+			printf("%s adalah operator\n",output);
+		}
+		else if(strcmp(output,"-")==0){
+			printf("%s adalah operator\n",output);
+		}
+		else if(strcmp(output,"+")==0){
+			printf("%s adalah operator\n",output);
+		}
+		else if(strcmp(output,"*")==0){
+			printf("%s adalah operator\n",output);
+		}
+		else if(strcmp(output,"/")==0){
+			printf("%s adalah operator\n",output);
+		}
+		else if(strcmp(output,"%")==0){
 			printf("%s adalah operator\n",output);
 		}
 		else if(periksa(output)==1){ //panggil fungsi periksa input = keyword
