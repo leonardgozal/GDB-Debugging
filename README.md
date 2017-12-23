@@ -1,2 +1,17 @@
 # GDB-Debugging
 Tugas Debugging Mata Kuliah Sistem Mikroprosesor
+
+Langkah kerja :
+
+Buat program parsing dengan bahasa C :
+
+source code sudah diupload https://github.com/leonardgozal/GDB-Debugging/blob/master/parsinggozal.c
+program berfungsi membagi input menjadi beberapa bagian dengan delimiter tertentu dengan menggunakan fungsi strtok, hasil pembagian berupa token tersebut lalu dikelompokkan menjadi identifier, operator, dan keyword berdasarkan pemrograman bahasa C.
+hasil run dari program tersebut :
+![Run C](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/Run.png)
+
+Source code C lalu di disassembly :
+
+digunakan Dev C++ sebagai tools untuk disassembly
+hasil disassembly sebagai berikut 
+![Disassembly](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/Debug%20Dev%20C%20%2B%2B.png)
