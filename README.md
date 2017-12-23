@@ -15,3 +15,5 @@ Source code C lalu di disassembly :
 digunakan Dev C++ sebagai tools untuk disassembly
 hasil disassembly sebagai berikut 
 ![Disassembly](https://github.com/leonardgozal/GDB-Debugging/blob/master/Gambar/Debug%20Dev%20C%20%2B%2B.png)
+
+problem : program baru bisa membagi dan mengidentifikasi jenis token, program masih belum bisa memeriksa kebenaran syntax 
