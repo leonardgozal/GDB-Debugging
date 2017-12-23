@@ -30,7 +30,7 @@ int main(){
 	char *output; 
 	
 	printf("Masukkan input : ");
-	scanf("%[^\n]s",&input); //input sampai enter ditekan
+	scanf("%[^\n]s",input); //input sampai enter ditekan
 	
 	output=strtok(input," ,."); //bagi string input menjadi token saat ada space atau , atau .
 	
